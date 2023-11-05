@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scoreboard</title>
+  <link rel="stylesheet" href="basket.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Oxanium:wght@800&family=Piazzolla:opsz,wght@8..30,100&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="main">
+    <div id="home-hero">
+      <h1 class="home">Home</h1>
+      <div class="score-home">
+        <h2 id="count-el" class="reset">0</h2>
+      </div>
+        <div class="home-buttons">
+          <button onclick="incrementHome1();" class="btn">+1</button> 
+          <button onclick="incrementHome2();" class="btn">+2</button> 
+          <button onclick="incrementHome3();" class="btn">+3</button>
+        </div>
+    </div>
+
+    <div id="middle-div">
+
+    <div id="period-div">
+      <div>
+        <h1>Period</h1>
+      </div>
+        <div>
+          <input type="text" name="" id="input">
+        </div>
+     </div>
+
+    <div id="new-game-div">
+      <div class="new-Game">
+        <button onclick="newGame();" id="new-btn">New Game</button>
+      </div>
+    </div> 
+
+  </div>
+   
+
+    <div id="guest-hero">
+      <h1 class="guest">Guest</h1>
+      <div class="guest-score">
+        <h2 id="guest-el" class="reset">0</h2>
+      </div>
+        <div class="guest-buttons">
+          <button onclick="increaseGuest1();" class="gst-btn">+1</button>
+          <button onclick="increaseGuest2();" class="gst-btn">+2</button>
+          <button onclick="increaseGuest3();" class="gst-btn">+3</button>
+        </div>
+   
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+
+
+  <script src="score.js"></script>
+</body>
+</html>

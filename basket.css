@@ -1,0 +1,124 @@
+body { 
+  background-color: #4A412A;
+  color: #D2B48C;
+  text-align: center;
+  font-family: 'Oxanium', sans-serif;
+}
+
+#main {  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.score-home { 
+  width: 200px;
+  height: 200px;
+  background-color: #EDC9AF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #800000; 
+  };
+  
+
+
+#count-el { 
+
+}
+
+.home-buttons { 
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn { 
+  width: 50px;
+  height: 50px;
+  background-color: #4A412A;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: medium;
+}
+
+#middle-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#period-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-larger;
+  font-weight: bolder;
+}
+
+#input { 
+  color: #800020;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: x-large;
+  background-color: #EDC9AF;
+  font-weight: bolder;
+  
+}
+
+
+#new-game-div{ 
+  margin: 50px;
+}
+
+#new-btn{  
+  width: 100px;
+  height: 80px;
+  color: black;
+  background-color: #4A412A;
+  border: 2px solid white;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  
+}
+
+.guest-score { 
+  width: 200px;
+  height: 200px;
+  background-color: #EDC9AF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #800000;
+}
+
+#guest-el { 
+ 
+}
+
+.guest-buttons { 
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.gst-btn { 
+  width: 50px;
+  height: 50px;
+  background-color: #4A412A;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: medium;
+}
