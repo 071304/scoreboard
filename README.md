@@ -1,0 +1,2 @@
+# scoreboard
+Beginner Scoreboard project.
